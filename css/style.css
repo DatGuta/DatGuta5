@@ -1,0 +1,213 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.fpt{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+
+}
+.fpt>header{
+    background-image: url('../images/fpt7.jpg');
+    background-size: 100% 100%;
+    min-height: 280px;
+    padding-bottom: 25%;
+    font-variant: small-caps;
+    position: relative;
+}
+.fpt>nav{
+    min-height: 50px;
+    background-color: orangered; 
+    position: relative; 
+}
+.center-left{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    display: flex;
+    list-style: none;
+}
+.center-right{
+    position: absolute;
+    padding: 5px;
+    right:10px;
+    top: 10px;
+}
+.center-left>li>a{
+    color: white;
+    font-variant: small-caps;
+    line-height: 25px;
+}
+.center-left>li>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.center-left>li{
+    position: relative;
+}
+.center-left ul{
+    position: absolute;
+    display: none;
+    width: 170px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color:white ;
+    font-variant: small-caps;
+    text-align: left;
+    border-radius: 3px;
+    box-shadow: 0 0 1px gray;
+}
+.center-left>li:hover>ul{
+    display: block;
+}
+.center-left ul>li>a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    padding: 0 5px;
+    border-bottom: 1px dotted lightgray;
+}
+.center-left ul>li>a:hover{
+    color: white;
+    background-color: orangered;
+}
+.center-right>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.center-right>a{
+    color: white;
+    font-variant: small-caps;
+    line-height: 25px;
+}
+.fpt>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.fpt>aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.fpt>footer{
+    border-top: 5px double orangered;
+    text-align: center;
+    clear: both;
+    background-color: lightcyan;
+    font-variant: small-caps;
+    line-height: 40px;
+}
+
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+.vmenu{
+    border-bottom: 1px solid   lightgray;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    list-style: none;
+    font-variant: small-caps;
+}
+.vmenu a{
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    line-height: 30px;
+    background: url('../images/icons8-plus-+-50.png') no-repeat 5px center ;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted   lightgray;
+}
+.vmenu a:hover{
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    background: url('../images/icons8-ok-50.png') no-repeat 5px center orangered;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px; 
+    background-color: orangered;
+    padding: 10px;
+    box-shadow: 10px -10px white;  
+}
+.top-right>a{
+    color: white;
+}
+.company-info{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.company-info>b{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -2px 2px orangered;;
+}
+.company-info>p{
+    font-variant: small-caps;
+    font-weight: bold;
+    color: orangered;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.company-info>hr{
+    color: orangered;
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow:0 0 5px gray;
+    margin:5px;
+    padding:30px;
+    text-align: center;
+    position:relative;
+}
+.sanpham>.name{
+    font-variant:small-caps;
+    color:orangered;   
+}
+.sanpham>.image{
+    max-width:98%;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.sanpham>.price{
+    position:absolute;
+    left:5px;
+    bottom:5px;
+    font-family:Impact;
+    color:orange;
+}
+.sanpham>.icons{
+    position:absolute;
+    right:25px;
+    bottom:5px;
+    float: left;
+    width: 25px;
+
+}
+.sanpham>.new-icon{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width: 10%;
+}
+.column{
+    width:25%;
+    float:left;
+}
+
